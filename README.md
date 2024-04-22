@@ -23,3 +23,9 @@ All dependencies for non-arch users
 ```shell
 Hyprland rofi hyprpaper swaync waybar fcitx5 swayidle polkit-kde-agent cliphist brightnessctl swaylock-effects kitty thunar
 ```
+
+After move all configurations to `.config` folder the script in `.config/deps4config/script/` don't have any permission.
+To add permission use.
+```shell
+chmod +x ~/.config/deps4config/script/*
+```
