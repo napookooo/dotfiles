@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Be sure to visit https://github.com/catppuccin/fcitx5 for manual"
+
+echo "Installing fcitx5"
+
+git clone https://github.com/catppuccin/fcitx5.git
+mkdir -p ~/.local/share/fcitx5/themes/
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
+
+echo "To enable"
+echo "In ~/.config/fcitx5/conf/classicui.conf, change the Theme variable to:"
+echo "Theme=catppuccin-mocha # or macchiato, frappe, latte"
