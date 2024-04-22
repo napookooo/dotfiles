@@ -9,7 +9,7 @@ echo "Install dependencies for arch-base distro (assuming that using yay as AUR 
 read confirm
 if [[ "$confirm" == "Y" ]] || [[ "$confirm" == "y" ]] || [[ "$confirm" == "" ]] ; then
   yay -Sy
-  yay -S Hyprland rofi hyprpaper swaync waybar fcitx5 swayidle polkit-kde-agent cliphist brightnessctl swaylock-effects-git kitty thunar --needed
+  yay -S hyprland rofi hyprpaper swaync waybar fcitx5 swayidle polkit-kde-agent cliphist brightnessctl swaylock-effects-git kitty thunar --needed
 else
   echo "Aborted by user"
 fi
