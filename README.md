@@ -10,7 +10,7 @@ These are some details about my system.
 + **Editor**: [Neovim](https://github.com/neovim/neovim/)
 + **File Manager**: [Thunar](https://git.xfce.org/xfce/thunar/)
 + **Launcher**: [rofi](https://github.com/davatorium/rofi/)
-+ **Font**:[JetBrainsNerdFont](https://www.jetbrains.com/lp/mono/)
++ **Font**: [JetBrainsNerdFont](https://www.jetbrains.com/lp/mono/)
 
 ## How to download ?
 For arch linux user, you can use install script.
