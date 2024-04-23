@@ -32,10 +32,17 @@ chmod +x ~/.config/deps4config/script/*
 
 ## Credits.
 [Catppuccin](https://github.com/catppuccin/catppuccin) for an amazing theme.
+
 Wallpapers
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/pinkMountain.jpg) https://wallpaperaccess.com/pastel-pixel-art#6581909
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/japaneseThing.jpg) https://wallpaperaccess.com/pixel-art-desktop#3433252
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/earthDead.png) https://wallpaperaccess.com/4k-pixel#348139
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/space.jpg) https://wallpaperaccess.com/4k-pixel#2789549
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/flatppuccin_4k_macchiato.png) https://github.com/zhichaoh/catppuccin-wallpapers
-![image](https://github.com/napookooo/dotfiles/tree/main/deps4config/wallpaper/ace.jpg)
+
+![image](./deps4config/wallpaper/pinkMountain.jpg?raw=true) https://wallpaperaccess.com/pastel-pixel-art#6581909
+
+![image](./deps4config/wallpaper/japaneseThing.jpg?raw=true) https://wallpaperaccess.com/pixel-art-desktop#3433252
+
+![image](./deps4config/wallpaper/earthDead.png?raw=true) https://wallpaperaccess.com/4k-pixel#348139
+
+![image](./deps4config/wallpaper/space.jpg?raw=true) https://wallpaperaccess.com/4k-pixel#2789549
+
+![image](./deps4config/wallpaper/flatppuccin_4k_macchiato.png?raw=true) https://github.com/zhichaoh/catppuccin-wallpapers
+
+![image](./deps4config/wallpaper/ace.jpg?raw=true) By me in game DeadbyDaylight.
