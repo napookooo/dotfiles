@@ -10,6 +10,7 @@ These are some details about my system.
 + **Editor**: [Neovim](https://github.com/neovim/neovim/)
 + **File Manager**: [Thunar](https://git.xfce.org/xfce/thunar/)
 + **Launcher**: [rofi](https://github.com/davatorium/rofi/)
++ **Font**:[JetBrainsNerdFont](https://www.jetbrains.com/lp/mono/)
 
 ## How to download ?
 For arch linux user, you can use install script.
@@ -22,6 +23,11 @@ Add permition to `install_scripts.sh` run and follow the instructions to use the
 All dependencies for non-arch users
 ```shell
 Hyprland rofi hyprpaper swaync waybar fcitx5 swayidle polkit-kde-agent cliphist brightnessctl swaylock-effects kitty thunar
+```
+
+Required fonts
+```shell
+otf-font-awesome and JetBrainNerdFont(or other font of your choice, but config need to be change)
 ```
 
 After move all configurations to `.config` folder the script in `.config/deps4config/script/` don't have any permission.
