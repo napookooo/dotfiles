@@ -1,0 +1,208 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMonoNerdFont, FontAwesome, Roboto, Helvetica, Arial, sans-serif; /* Iosevka */
+    font-size: 15.5px;
+    min-height: 0;
+}
+
+window#waybar {
+    /* background-color: rgba(115, 121, 148, 0.9); */
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: 15px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.1;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    /* box-shadow: inset 0 -3px transparent; */
+    /* Avoid rounded borders under each button name */
+    /* background-color: transparent; */
+    border-radius: 15px;
+}
+
+#custom-distro {
+  color: rgba(23, 147, 209, 1);
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(242,213,207,1) 0%, rgba(202,158,230,1) 30%, rgba(198,208,245,1) 90%);
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+  border-color: rgba(0,0,0,0);
+  box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background: none; /* Remove predefined background color (white) */
+  transition: none; /* Disable predefined animations */
+}
+#workspaces {
+  border-radius: 20px;
+  background-color: rgba(41, 44, 60, 1); 
+}
+
+#workspaces button {
+  color: rgba(186, 187, 241, 1);
+}
+
+#workspaces button:hover {
+  color: rgba(41, 44, 60, 1); 
+  background-color: rgba(153, 209, 219, 1);
+}
+
+#workspaces button.active {
+  margin: 2px;
+  color: rgba(41, 44, 60, 1); 
+  background-color: rgba(186, 187, 241, 1);
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock,
+#custom-swaylock,
+#custom-notification,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#idle_inhibitor,
+#custom-music,
+
+#window {
+  background-color: rgba(81, 87, 109, 1);
+    margin-top: 0px;
+    border-radius: 5px;
+  padding: 0px 5px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 8px;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child {
+    padding-right: 0px;
+    margin-right: 5px;
+}
+
+#clock {
+    color: #000000;
+    background-color: rgb(186, 187, 241);
+    margin-right: 2px;
+}
+
+#custom-swaylock {
+  color: rgba(133, 193, 220, 1);
+  padding-right: 6px;
+  padding-left: 5px;
+}
+#custom-notification {
+  color: rgba(238, 190, 190, 1);
+  padding-right: 4px;
+  padding-left: 4px;
+}
+#battery {
+  padding-left: 5px;
+  padding-right: 11px;
+}
+
+#battery.charging, #battery.plugged {
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
+@keyframes blink {
+  to {
+    color: #000000;
+    padding: 0px 5px;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 0px 5px;
+}
+
+label:focus {
+}
+
+#network.disconnected {
+  padding: 0px 5px;
+}
+
+#pulseaudio {
+  color: rgba(166, 209, 137, 1);
+}
+
+#pulseaudio.muted {
+  padding: 0px 5px;
+}
+
+#temperature.critical {
+  padding: 0px 5px;
+}
+
+#tray{
+  background-color: rgba(98, 104, 128, 1);
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+  padding: 0px 5px;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+}
+
+#idle_inhibitor {
+  color: rgba(153, 209, 219, 1);
+}
+
+#idle_inhibitor.activated {
+}
+
+#backlight {
+  color: rgba(239, 159, 118, 1);
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
+#temperature {
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
+#custom-music.Playing {
+    border-radius: 15px;
+    background: rgb(137, 180, 250);
+    background: radial-gradient(circle, rgba(137, 180, 250, 120) 0%, rgba(142, 179, 250, 120) 6%, rgba(148, 226, 213, 1) 14%, rgba(147, 178, 250, 1) 14%, rgba(155, 176, 249, 1) 18%, rgba(245, 194, 231, 1) 28%, rgba(158, 175, 249, 1) 28%, rgba(181, 170, 248, 1) 58%, rgba(205, 214, 244, 1) 69%, rgba(186, 169, 248, 1) 69%, rgba(195, 167, 247, 1) 72%, rgba(137, 220, 235, 1) 73%, rgba(198, 167, 247, 1) 78%, rgba(203, 166, 247, 1) 100%);
+    background-size: 400% 400%;
+    animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+    font-weight: bold;
+    color: #fff;
+}
+
+#custom-music.Paused,
+#custom-music.Stopped {
+    background: #161925;
+}
