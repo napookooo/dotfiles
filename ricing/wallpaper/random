@@ -1,0 +1,28 @@
+wallVar=$(($RANDOM%8+1))
+
+case $wallVar in
+  1)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/space.jpg
+    ;;
+  2)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/ace.jpg
+    ;;
+  3)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/earthDead.png
+    ;;
+  4)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/japaneseThing.jpg
+    ;;
+  5)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/pinkMountain.jpg
+    ;;
+  6)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/flatppuccin_4k_macchiato.png
+    ;;
+  7)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/x.gif
+    ;;
+  8)
+    swww img --transition-type outer --transition-pos 0.$(($RANDOM%10)),0.$(($RANDOM%10)) --transition-step 90 /home/cuzof/ricing/wallpaper/japSakura.gif
+    ;;
+esac
