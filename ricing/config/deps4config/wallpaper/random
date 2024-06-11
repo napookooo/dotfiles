@@ -1,0 +1,29 @@
+w1="eDP-1,/home/cuzof/ricing/wallpaper/flatppuccin_4k_macchiato.png"
+w2="eDP-1,/home/cuzof/ricing/wallpaper/pinkMountain.jpg"
+w3="eDP-1,/home/cuzof/ricing/wallpaper/japaneseThing.jpg"
+w4="eDP-1,/home/cuzof/ricing/wallpaper/space.jpg"
+w5="eDP-1,/home/cuzof/ricing/wallpaper/earthDead.png"
+w6="eDP-1,/home/cuzof/ricing/wallpaper/ace.jpg"
+
+wallVar=$(($RANDOM%6+1))
+
+case $wallVar in
+  1)
+    hyprctl hyprpaper wallpaper $w1
+    ;;
+  2)
+    hyprctl hyprpaper wallpaper $w2
+    ;;
+  3)
+    hyprctl hyprpaper wallpaper $w3
+    ;;
+  4)
+    hyprctl hyprpaper wallpaper $w4
+    ;;
+  5)
+    hyprctl hyprpaper wallpaper $w5
+    ;;
+  6)
+    hyprctl hyprpaper wallpaper $w6
+    ;;
+esac
