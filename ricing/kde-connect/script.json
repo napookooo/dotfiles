@@ -1,0 +1,35 @@
+[
+    {
+      "command":"kitty --hold --detach bashtop & kitty --hold --detach fastfetch & kitty",
+      "name":"Arch"
+    },
+    {
+      "command":"virsh --connect qemu:///system start archlinux && virt-manager --connect qemu:///system --show-domain-console archlinux",
+      "name":"Start arch vm"
+    },
+    {
+      "command":"virsh --connect qemu:///system start archlinux2 && virt-manager --connect qemu:///system --show-domain-console archlinux2",
+      "name":"Start arch vm2"
+    },
+    {
+      "command":"virsh --connect qemu:///system start win11 && virt-manager --connect qemu:///system --show-domain-console win11",
+      "name":"Start windows"
+    },
+    {
+      "command":"kitty",
+      "name":"Terminal"
+    },
+    {
+      "command":"swaylock -f --clock --effect-blur 10x2 -i /home/cuzof/ricing/wallpaper/flatppuccin_4k_macchiato_inverted.png",
+      "name":"Lock"
+    },
+    {
+      "command":"hyprctl dispatch workspace +1",
+      "name":"Next vir desktop"
+    },
+    {
+      "command":"hyprctl dispatch workspace -1",
+      "name":"Previous vir desktop"
+    }
+]
+
