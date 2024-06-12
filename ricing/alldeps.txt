@@ -196,9 +196,14 @@ highway 1.2.0-1
 hwdata 0.383-1
 hwloc 2.10.0-1
 hyprcursor 0.1.9-1
-hyprland 0.40.0-1
+hyprland-git 0.41.0.r14.1bae19ce-1
+hyprland-git-debug 0.41.0.r14.1bae19ce-1
 hyprlang 0.5.2-1
 hyprshot 1.3.0-1
+hyprutils 0.1.1-1
+hyprutils-debug 0.1.1-1
+hyprwayland-scanner-git 0.3.10.r1.g1419520d-1
+hyprwayland-scanner-git-debug 0.3.10.r1.g1419520d-1
 iana-etc 20240412-1
 icu 75.1-1
 imath 3.1.11-2
@@ -728,6 +733,7 @@ procps-ng 4.0.4-3
 protobuf 25.3-4
 proton-ge-custom-bin 1:GE_Proton9_7-1
 psmisc 23.7-1
+pugixml 1.14-1
 pulseaudio-qt 1.5.0-1
 python 3.12.3-1
 python-autocommand 2.2.2-6
@@ -743,6 +749,7 @@ python-docutils 1:0.21.2-1
 python-fastjsonschema 2.19.1-3
 python-fonttools 4.53.0-1
 python-gobject 3.48.2-1
+python-hidapi 0.14.0-2
 python-idna 3.6-2
 python-imagesize 1.4.1-5
 python-inflect 7.2.1-2
@@ -815,6 +822,7 @@ rav1e 0.7.1-1
 readline 8.2.010-1
 rhash 1.4.4-1
 ripgrep 14.1.0-1
+rivalcfg 4.13.0-1
 rnnoise 1:0.2-1
 rofi-lbonn-wayland-git 1.7.5.wayland3.r25.g93ad86da-1
 rofi-lbonn-wayland-git-debug 1.7.5.wayland3.r25.g93ad86da-1
