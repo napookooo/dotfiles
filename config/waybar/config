@@ -31,11 +31,11 @@
      },
      "custom/distro": {
         "format":" 󰣇  ",
-        "on-click": "/home/cuzof/ricing/wallpaper/random"
+        "on-click": "/home/cuzof/.local/bin/random"
      },
      "custom/swaylock": {
         "format": "  ",
-        "on-click": "swaylock -f --clock --effect-blur 10x2 -i /home/cuzof/ricing/wallpaper/flatppuccin_4k_macchiato_inverted.png",
+        "on-click": "swaylock -f --clock --effect-blur 10x2 -i /home/cuzof/.local/wallpapers/flatppuccin_4k_macchiato_inverted.png",
         "tooltip": false,
       },
       "idle_inhibitor": {
@@ -148,7 +148,7 @@
       },
       "escape": true,
       "tooltip": true,
-      "exec": "/home/cuzof/ricing/script/caway -b 14 -f 30",
+      "exec": "/home/cuzof/.local/bin/caway -b 14 -f 30",
       "return-type": "json",
       "on-click": "playerctl play-pause",
       "on-scroll-up": "playerctl previous",
