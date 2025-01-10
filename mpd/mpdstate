@@ -1,0 +1,55 @@
+sw_volume: 30
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:my_fifo
+state: pause
+current: 12
+time: 0.544000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:favsong/【ボカロ】雨女⧸ feat.初音ミク   TsukiP【ボカロオリジナル】.mp3
+1:favsong/Bestie (Feat. BIRA) by SOPHI.mp3
+2:favsong/Cata (feat. NC.A) by Miiro.mp3
+3:favsong/glory day (JHS Remix) - JHS.mp3
+4:favsong/glory day (Mintorment Remix) - Mintorment.mp3
+5:favsong/glory MAX - 나의 최대치로 너와 함께할게 - by TAK.mp3
+6:favsong/Kakera by CLTH.mp3
+7:favsong/LUV (Full ver.) by ND Lee.mp3
+8:favsong/Mad (feat. WaMi) by ESAI.mp3
+9:favsong/Outcast (feat. BIRA) by SOPHI.mp3
+10:favsong/RESPECT New song glory day (Full M⧸V).mp3
+11:favsong/snooze ⧸ wotaku feat. SHIKI.mp3
+12:favsong/Sugar & Co. Official - Happy Hour (Music Video).mp3
+13:favsong/Sugar & Co. Official - 夜的搁浅 (Marooned Night).mp3
+14:favsong/Sugar&Co. - tape​⧸​stop​⧸​night.mp3
+15:favsong/Sugar&Co. Official - sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ.mp3
+16:favsong/Sugar&Co. Official - 去剪海的日子 (Sea-Saw Day).mp3
+17:favsong/Sugar&Co. Official - 眠眠飯店！(Nighty-Night Restaurant!).mp3
+18:favsong/Sugar&Co. Official - 雨后甜点.mp3
+19:favsong/Tic! Tac! Toe! (Extended Mix) by TAK x Corbin.mp3
+20:favsong/달의하루(Dareharu) 『너로피어오라(Flowering)』 MV.mp3
+21:favsong/달의하루(Dareharu) 『순혈주의자(Pure Blood)』 MV.mp3
+22:favsong/달의하루(Dareharu) 『염라(Karma)』 MV.mp3
+23:favsong/때론, 냉정도 필요해 (Cold Generation) by Mycin.T.mp3
+24:favsong/光線チューニング ⧸ ナユタン星人.mp3
+25:favsong/藍璃かんな(Airi Kanna) ｜ ‘ADDICT!ON’ Music Video.mp3
+26:favsong/FUTUREPOP.mp3
+27:favsong/SWEET SWEET SWEET.mp3
+28:favsong/Magnolia.mp3
+29:favsong/Marigold (feat. Guriri).mp3
+30:favsong/Banana Shake.mp3
+31:favsong/士多啤梨哥斯拉.mp3
+32:favsong/Anima.mp3
+33:favsong/FM17314 Sugar Radio.mp3
+34:favsong/27AM.mp3
+35:favsong/7PM.mp3
+36:favsong/A F T E R M O O N T E A.mp3
+37:favsong/a little remedy.mp3
+38:favsong/May I May I？.mp3
+39:favsong/Warframe ｜ ＂The Call＂ (Warframe： 1999 Official Audio Visualizer).mp3
+playlist_end
