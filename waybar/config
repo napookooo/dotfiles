@@ -122,7 +122,7 @@
     },
     "custom/notification": {
         "tooltip": false,
-        "format": "{} {icon} ",
+        "format": "{icon} {0} ",
         "format-icons": {
             "notification": "<span foreground='red'><sup></sup></span>",
             "none": "",
@@ -140,7 +140,7 @@
         "escape": true
     },
     "custom/music": {
-      "format": "{}{icon}",
+      "format": "{icon}{0}",
       "format-icons": {
           // "Playing": " ", // Uncomment if not using caway
           "Paused": "⏸︎ ",
